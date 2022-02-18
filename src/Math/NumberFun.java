@@ -8,5 +8,10 @@ public class NumberFun {
 		this.firstNum = first;
 		this.secondNum = second;
 	}
+	
+	public int GetAdditionResult()
+	{
+		return firstNum + secondNum;
+	}
 
 }
